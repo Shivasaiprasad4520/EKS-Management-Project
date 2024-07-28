@@ -52,6 +52,7 @@ eksctl create cluster --name cluster-name
 --nodes-min 2
 --nodes-max 2 \ --zones,
 
+<img src="C:\Users\Tarun\OneDrive\Desktop\devops\Docker, Kubernetes\Kubernetes\project\creating cluster.png">
 
 Advantages:
 ----------
