@@ -1,0 +1,13 @@
+# Prometheus Install & Configuration:
+----------------------------------
+
+$ kubectl get service prometheus-kube-prometheus-prometheus --output yaml > prometheus.yaml
+
+$ vi prometheus.yaml
+{in prometheus.yaml, change clusterIP to NodePort in the last line}
+
+$ kubectl apply -f prometheus.yaml
+
+$ kubectl get service prometheus-kube-prometheus-prometheus -o wide 
+
+==>> access prometheus using NodeIP & Port Number of any 1 of instances and add inbound rule with ALLTCP in security group like (http://3.138.173.79:31515/)
