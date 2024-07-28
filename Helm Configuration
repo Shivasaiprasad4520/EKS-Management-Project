@@ -1,0 +1,16 @@
+Install & Configure Helm:
+=========================
+
+https://helm.sh/docs/intro/install
+
+wget https://get.helm.sh/helm-v3.13.2-linux-amd64.tar.gz
+
+tar -xvzf helm-v3.13.2-linux-amd64.tar.gz
+
+cd linux-amd64
+
+./helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+
+./helm repo update
+
+./helm install prometheus prometheus-community/kube-prometheus-stack
