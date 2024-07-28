@@ -61,8 +61,6 @@ Mumbai: $ eksctl create cluster --name shiva-cluster --region ap-south-1 --node-
 
 Note: Cluster creation will take 5 to 10 mins of time (we have to wait). After cluster created we can check nodes using below command.
 
-<img src="C:\Users\Tarun\OneDrive\Desktop\devops\Docker, Kubernetes\Kubernetes\project\creating cluster.png">
-
 $ kubectl get nodes
 
 Note: We should be able to see EKS cluster nodes here.
