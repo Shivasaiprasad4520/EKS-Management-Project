@@ -1,0 +1,17 @@
+# grafana Configuration:
+------------------------
+
+$ kubectl get service prometheus-grafana --output yaml > grafana.yaml
+
+$ vi grafana.yaml
+{In grafana.yaml Change ClusterIP to NodePort}
+
+$ kubectl apply -f grafana.yaml
+
+$ kubectl get service prometheus-grafana -o wide
+
+==> Access Grafana using NodeIP & Port number 
+User: admin,  Password: prom-operator
+
+Note: We should be able to see EKS cluster nodes here.
+====
