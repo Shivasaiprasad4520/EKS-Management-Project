@@ -27,7 +27,34 @@ Secrets:
 -------
 A secret is an Object that contain a small amount of sensitive data such as passwords, tokens & keys.
 
+------------------------------------------------------------------------------------
+EKS Cluster Setup:
+-----------------
+Pre-Requisites:
+1) Management Server with t2.micro
+2) Cluster(t2.medium servers)
+
+Step 1 : Create EKS Management Host in AWS
+-------
+Launch new Ubuntu VM using AWS Ec2 ( t2.micro ) with ALLTCP
+
+Step - 2 : Create IAM role & attach to EKS Management Host
+---------
+Create New Role using IAM service ( Select Usecase - ec2 )
+
+Step - 3 : Create EKS Cluster using eksctl
+============================================
+Syntax:
+
+eksctl create cluster --name cluster-name
+--region region-name
+--node-type instance-type
+--nodes-min 2
+--nodes-max 2 \ --zones,
+
+
 Advantages:
+----------
 - Scalability: Easily scale applications horizontally by adding more instances of pods.
 - Reliability: Automatically restarts and replaces failed containers, ensuring applications are always running.
 - Portability: Applications can run consistently across different environments, including on-premises and cloud platforms.
@@ -35,6 +62,7 @@ Advantages:
 - Resource Optimization: Efficiently utilizes resources, running workloads based on available resources and constraints.
 
 Disadvantages:
+-------------
 - Complexity: Kubernetes can be complex to set up and manage, especially for beginners.
 - Overhead: Running a Kubernetes cluster introduces additional overhead compared to simpler container orchestration solutions.
 - Steep Learning Curve: Understanding the various components and best practices requires time and effort.
