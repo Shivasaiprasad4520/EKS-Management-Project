@@ -19,6 +19,7 @@ Prometheus it is an open-source systems monitoring and alerting tool kit that co
 Grafana:
 -------
 It is a tool for creating and managing dashboards, alerts, reports, and other alarms.
+![grafana](https://github.com/user-attachments/assets/8562d746-126d-44ea-8b0e-5c79bdf6bf1b)
 
 ConfigMaps:
 ----------
