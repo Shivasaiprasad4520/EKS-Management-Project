@@ -15,6 +15,8 @@ EX: In Linux yum & apt-get
 Prometheus:
 -----------
 Prometheus it is an open-source systems monitoring and alerting tool kit that collects and stores time series data of numeric metrics
+![access prometheus](https://github.com/user-attachments/assets/f9f3176f-00c5-49ab-a760-4bc9e4fe22cb)
+
 
 Grafana:
 -------
@@ -35,7 +37,7 @@ EKS Cluster Setup:
 Pre-Requisites:
 1) Management Server with t2.micro
 2) Cluster(t2.medium servers)
-
+![creating cluster](https://github.com/user-attachments/assets/239b0905-d747-4deb-9460-403df47fe789)
 Step 1 : Create EKS Management Host in AWS
 -------
 Launch new Ubuntu VM using AWS Ec2 ( t2.micro ) with ALLTCP
@@ -54,7 +56,8 @@ eksctl create cluster --name cluster-name
 --nodes-min 2
 --nodes-max 2 \ --zones,
 
-<img src="C:\Users\Tarun\OneDrive\Desktop\devops\Docker, Kubernetes\Kubernetes\project\creating cluster.png">
+![pods](https://github.com/user-attachments/assets/a614e390-bedc-4136-a0c8-ab19430af1ef)
+
 
 Advantages:
 ----------
