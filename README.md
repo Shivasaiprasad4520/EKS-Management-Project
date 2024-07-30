@@ -12,15 +12,18 @@ Helm: Package manager
 Helm is a tool that helps you to manage Kubernetes applications with charts
 
 EX: In Linux yum & apt-get
+
 Prometheus:
 -----------
 Prometheus it is an open-source systems monitoring and alerting tool kit that collects and stores time series data of numeric metrics
+
 ![access prometheus](https://github.com/user-attachments/assets/f9f3176f-00c5-49ab-a760-4bc9e4fe22cb)
 
 
 Grafana:
 -------
 It is a tool for creating and managing dashboards, alerts, reports, and other alarms.
+
 ![grafana](https://github.com/user-attachments/assets/8562d746-126d-44ea-8b0e-5c79bdf6bf1b)
 
 ConfigMaps:
@@ -37,7 +40,9 @@ EKS Cluster Setup:
 Pre-Requisites:
 1) Management Server with t2.micro
 2) Cluster(t2.medium servers)
+
 ![creating cluster](https://github.com/user-attachments/assets/239b0905-d747-4deb-9460-403df47fe789)
+
 Step 1 : Create EKS Management Host in AWS
 -------
 Launch new Ubuntu VM using AWS Ec2 ( t2.micro ) with ALLTCP
