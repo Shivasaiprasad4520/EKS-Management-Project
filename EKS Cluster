@@ -1,5 +1,5 @@
 Step - 1 : Create EKS Management Host in AWS
-=============================================
+==============================================
 Launch new Ubuntu VM using AWS Ec2 ( t2.micro ) with ALLTCP
 
 
