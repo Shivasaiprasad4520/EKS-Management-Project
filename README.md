@@ -72,8 +72,4 @@ Advantages:
 - Extensibility: Kubernetes supports custom extensions and integrations with other tools and services.
 - Resource Optimization: Efficiently utilizes resources, running workloads based on available resources and constraints.
 
-Disadvantages:
--------------
-- Complexity: Kubernetes can be complex to set up and manage, especially for beginners.
-- Overhead: Running a Kubernetes cluster introduces additional overhead compared to simpler container orchestration solutions.
-- Steep Learning Curve: Understanding the various components and best practices requires time and effort.
+
