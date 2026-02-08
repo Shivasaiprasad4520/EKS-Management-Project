@@ -7,11 +7,7 @@ Pre-Requisites:
 1) Management Server with t2.micro
 2) Cluster(t2.medium servers)
 
-Helm: Package manager
-----
-Helm is a tool that helps you to manage Kubernetes applications with charts
 
-EX: In Linux yum & apt-get
 
 Prometheus:
 -----------
